@@ -1,0 +1,11 @@
+travel = ['Rome','Cancun', 'London','Miami','Orlando',]
+print(travel)
+print(sorted(travel))
+print(travel)
+print(sorted(travel,reverse=True))
+print(travel)
+travel.reverse()
+print(travel)
+travel.reverse()
+print(sorted(travel))
+print(sorted(travel,reverse=True))
