@@ -50,11 +50,17 @@ class Battery(Car):
             range = 140
         elif self.battery_size == 85:
             range = 185
+
             
         message = "This car can go approximately " + str(range)
         message += " miles on a full charge."
         print(message)
-    
+
+    def upgrade_battery(self,value):
+        if value < 60:
+            self.battery_size = 85
+        else:
+            print("The battery is already upgraded.")
         
 class ElectricCar(Car):
     """Models aspects of a car, specific to electric vehicles."""
@@ -67,3 +73,8 @@ class ElectricCar(Car):
         super().__init__(manufacturer, model, year)
         self.battery = Battery()
 
+car1 = ElectricCar('Acura','Express','2007')
+print(car1.get_descriptive_name())
+car1.battery.describe_battery()
+car1.battery.upgrade_battery(85)
+car1.battery.describe_battery()
