@@ -1,0 +1,5 @@
+In python you can print
+In python you can use variables and data types
+In python you can use lists
+In python you can use if and while statements
+In python you can use functions
