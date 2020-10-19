@@ -34,5 +34,6 @@ $ git clone https://github.com/RicardoSu/Python-Crash-Coursework.git
 
 ```
 
-
+<a href="https://www.amazon.com/Python-Crash-Course-2nd-Edition-dp-1593279280/dp/1593279280/ref=dp_ob_title_bk">
 <img src="book.jpg" alt="Pyhton Crash Course">
+</a>
